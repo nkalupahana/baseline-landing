@@ -26,13 +26,13 @@ layout: base
       {%- endif -%}</p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+  <div style="display: grid; grid-template-columns: 400px auto 400px; grid-auto-flow: column;" >
+    <div>left</div>
+    <div class="post-content e-content" itemprop="articleBody">
+      {{ content }}
+    </div>
+    <div>right</div>
   </div>
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
