@@ -14,6 +14,7 @@ description: A better journaling and mood tracking app. 100% free and private. N
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-toc
 
 # Theme-specific settings
 
@@ -28,3 +29,7 @@ header_pages:
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
   skin: classic
+
+toc:
+  min_level: 2
+  max_level: 2

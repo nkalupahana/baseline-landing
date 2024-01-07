@@ -4,35 +4,101 @@ layout: base
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.modified_date -%}
-        ~ 
-        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
-        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
-          {{ mdate | date: date_format }}
+    <div style="text-align: center;">
+      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p>{{ page.description }}</p>
+      <p class="post-meta">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: date_format }}
         </time>
-      {%- endif -%}
-      {%- if page.author -%}
-        • {% for author in page.author %}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-            {%- if forloop.last == false %}, {% endif -%}
-        {% endfor %}
-      {%- endif -%}</p>
+        {%- if page.author -%}
+          • {% for author in page.author %}
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+              {%- if forloop.last == false %}, {% endif -%}
+          {% endfor %}
+        {%- endif -%}</p>
+    </div>
   </header>
 
-  <div style="display: grid; grid-template-columns: 400px auto 400px; grid-auto-flow: column;" >
-    <div>left</div>
+  <div class="post-grid-container">
+    <div></div> <!-- left sidebar -->
+    <div class="center-flex">
+      <img src="https://placehold.co/600x400" alt="Header Image" class="post-header-image" />
+    </div>
+    <div></div> <!-- right sidebar -->
+    <div>
+      <div class="sticky-box tocLinks">
+        {% toc %}
+      </div>
+    </div>
     <div class="post-content e-content" itemprop="articleBody">
       {{ content }}
     </div>
-    <div>right</div>
+    <div>
+      <div class="sticky-box">
+        right
+      </div>
+    </div>
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<script>
+// Modified from
+// https://dakotaleemartinez.com/tutorials/how-to-add-active-highlight-to-table-of-contents/
+class Scroller {
+  static init() {
+    if (document.querySelector(".tocLinks")) {
+      this.tocLinks = document.querySelectorAll(".tocLinks a");
+      this.tocLinks.forEach((link) => link.parentElement.classList.add("text-active-transition"));
+      this.headers = Array.from(this.tocLinks).map((link) => {
+        return document.querySelector(`#${link.href.split("#")[1]}`);
+      });
+
+      this.ticking = false;
+      window.addEventListener("scroll", (e) => {
+        this.onScroll();
+      });
+
+      this.onScroll();
+    }
+  }
+
+  static onScroll() {
+    if (!this.ticking) {
+      requestAnimationFrame(this.update.bind(this));
+      this.ticking = true;
+    }
+  }
+
+  static update() {
+    let activeIndex = this.headers.findIndex((header) => {
+      return header.getBoundingClientRect().top > 180;
+    });
+
+    if (activeIndex == -1) {
+      activeIndex = this.headers.length - 1;
+    } else if (activeIndex > 0) {
+      activeIndex--;
+    }
+
+    let active = this.headers[activeIndex];
+    if (active !== this.activeHeader) {
+      console.log(active);
+      this.activeHeader = active;
+      this.tocLinks.forEach((link) => link.parentElement.classList.remove("text-active"));
+      this.tocLinks[activeIndex].parentElement.classList.add("text-active");
+    }
+
+    this.ticking = false;
+  }
+}
+
+
+document.addEventListener("DOMContentLoaded", function(e) {
+  Scroller.init();
+})
+</script>
