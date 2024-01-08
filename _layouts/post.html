@@ -4,7 +4,7 @@ layout: base
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <div style="text-align: center;">
+    <div style="text-align: center; margin: 0 24px;">
       <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
       <p>{{ page.description }}</p>
       <p class="post-meta">
@@ -37,8 +37,11 @@ layout: base
       {{ content }}
     </div>
     <div>
-      <div class="sticky-box">
-        right
+      <div class="sticky-box baseline-callout">
+        <img src="/assets/therapy-sidebar.jpg" alt="Person using phone to journal" class="sidebar-image" />
+        <h3 class="sidebar-heading">Better mental health, within your reach</h3>
+        <p>Journaling is proven to improve mental health &mdash; and baseline makes it easy. Start today, 100% free and private.</p>
+        <button class="baseline-button">Learn More</button>
       </div>
     </div>
   </div>
@@ -87,7 +90,6 @@ class Scroller {
 
     let active = this.headers[activeIndex];
     if (active !== this.activeHeader) {
-      console.log(active);
       this.activeHeader = active;
       this.tocLinks.forEach((link) => link.parentElement.classList.remove("text-active"));
       this.tocLinks[activeIndex].parentElement.classList.add("text-active");
@@ -96,7 +98,6 @@ class Scroller {
     this.ticking = false;
   }
 }
-
 
 document.addEventListener("DOMContentLoaded", function(e) {
   Scroller.init();
