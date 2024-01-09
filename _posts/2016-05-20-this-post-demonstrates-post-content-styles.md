@@ -4,7 +4,6 @@ title: "This post demonstrates post content styles"
 author:
 - Bart Simpson
 - Nelson Mandela Muntz
-meta: "Springfield"
 description: Isn't this cool?
 toc: true
 image: https://placehold.co/600x400

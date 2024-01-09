@@ -1,0 +1,30 @@
+.blog-home {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 42px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+
+.post-preview {
+    margin-bottom: 16px;
+}
+
+.post-preview-description {
+    grid-area: description;
+}
+
+.post-preview-heading {
+    grid-area: title;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.post-preview-image {
+    grid-area: image;
+    border-radius: 8px;
+}
