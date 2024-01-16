@@ -2,36 +2,18 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
-          </a>
-        </p>
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
+        <a href="/terms">Terms</a><br />
+        <a href="/privacy">Privacy</a><br />
+        <a href="/developers">Developers</a><br />
+        <a href="https://donorbox.org/baseline" target="_blank">Donate</a><br />
+        <a href="/blog">Blog</a>
+        <p>Copyright baseline health. <br />Contact us at hello [at] getbaseline [dot] app.</p>
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
       </div>
     </div>
-
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
-
   </div>
-
 </footer>

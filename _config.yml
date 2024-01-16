@@ -61,3 +61,6 @@ features                                  :
   - title                                 : Protect your information.
     description                           : We encrypt your data so that not even we can see it, let alone anyone else.
     fontawesome_icon_name                 : lock
+
+include:
+  - _pages
