@@ -4,16 +4,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   {% if page.url == "/" %}
-  <meta property="twitter:site" content="@getbaselineapp" />
-  <meta property="twitter:app:id:iphone" content="{{ site.ios_app_id }}" />
-  <meta property="twitter:app:id:ipad" content="{{ site.ios_app_id }}" />
-  <meta property="twitter:app:id:googleplay" content="app.getbaseline.baseline" />
-  <meta property="twitter:description" content="{{ site.description }}" />
+    <meta property="twitter:site" content="@getbaselineapp" />
+    <meta property="twitter:app:id:iphone" content="{{ site.ios_app_id }}" />
+    <meta property="twitter:app:id:ipad" content="{{ site.ios_app_id }}" />
+    <meta property="twitter:app:id:googleplay" content="app.getbaseline.baseline" />
+    <meta property="twitter:description" content="{{ site.description }}" />
+    {%- seo title=false -%}
+    <title>Home | baseline</title>
+  {% else %}
+    {%- seo -%}
   {% endif %}
 
-  {%- seo -%}
-  <meta name="og:image" content="https://getbaseline.app/assets/og.png" />
-  <meta property="og:type" content="website" />
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   <link rel="icon shortcut" href="/favicon.ico" />
 

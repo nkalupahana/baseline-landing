@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: "baseline: mood journaling"
 image: /assets/og.png
 twitter:
   card: app
