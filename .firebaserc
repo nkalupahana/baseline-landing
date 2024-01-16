@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "getbaselineapp"
+  },
+  "targets": {
+    "getbaselineapp": {
+      "hosting": {
+        "baseline-landing": [
+          "baseline-landing"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
