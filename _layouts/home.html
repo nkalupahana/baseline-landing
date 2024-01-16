@@ -2,4 +2,141 @@
 layout: base
 ---
 
-<p>home</p>
+<div class="home-container">
+    <div class="home-top">
+        <div class="home-left">
+            <img class="phoneScreenshot" src="/assets/summary-iphone.png" alt="baseline summary screen" />
+        </div>
+        <div class="home-right">
+            <h1>better mental health, <br />within <i>your</i> reach</h1>
+            <p>Start journaling and mood tracking with baseline today.</p>
+            <p>100% free and private.</p>
+            <div class="downloadButtonsContainer">
+                {% include install-buttons.html %}
+                <p>Or, use the <a tabindex="0" target="_self" class="fake-link pointer" id="webLink">web version</a> from a computer!</p>
+                <p>
+                    We're a 501(c)(3) nonprofit.
+                    <a href="https://donorbox.com/baseline" target="_blank" rel="noreferrer" class="fake-link pointer">Donate today!</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-features">
+        <div class="text-center home-titles">
+            <h1 class="type-header">Want to <span id="type-container"></span></h1>
+            <h1><b>baseline can help.</b></h1>
+        </div>
+
+        <div class="features">
+            {% for feature in site.features %} {% if feature.title %}
+            <div class="feature">
+                <div>
+                    <span class="fa-stack fa-1x">
+                        <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                        <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
+                    </span>
+                </div>
+                <div class="featureText">
+                    <h3>{{ feature.title }}</h3>
+                    <p>{{ feature.description }}</p>
+                </div>
+            </div>
+            {% endif %} {% endfor %}
+        </div>
+    </div>
+
+    <div class="text-center">
+        <h1 class="testimonials-header">Don't just take our word for it.</h1>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                {% for quote in page.quotes %}
+                <div class="swiper-slide">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <p class="quote-quote">{{ quote.quote }}</p>
+                    <br />
+                    <p class="quote-author">{{ quote.name }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="swiper-nav">
+            <div id="swiper-prev">
+                <span class="fa-stack fa-1x">
+                    <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                    <i class="iconTop fas fa-chevron-left fa-stack-1x"></i>
+                </span>
+            </div>
+            <div id="swiper-next">
+                <span class="fa-stack fa-1x">
+                    <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                    <i class="iconTop fas fa-chevron-right fa-stack-1x"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="downloadButtonsContainer download-two">
+            <h2>Try baseline today.</h2>
+            {% include install-buttons.html %}
+        </div>
+    </div>
+
+    <div class="large-feature-grid">
+        <div class="phone">
+            <img class="phoneScreenshot" src="/assets/graph-iphone.png" alt="baseline summary screen" />
+        </div>
+        <div class="text">
+            <h1>Perfect for data lovers.</h1>
+            <p>
+                Whether you love graphs, or are on a quest to quantify every part of your life, 
+                baseline is for you. With interactive graphs for everything 
+                from average mood to week-to-week stress, you'll always have a clear view into
+                what's going on in your head.
+            </p>
+            <p>
+                Plus, with customizable CSV and JSON data export, your data is yours to keep and use.
+            </p>
+        </div>
+    </div>
+
+    <div class="large-feature-grid right-focus">
+        <div class="phone">
+            <img class="phoneScreenshot" src="/assets/log-iphone.png" alt="baseline summary screen" />
+        </div>
+        <div class="text">
+            <h1>A better way to journal.</h1>
+            <p>
+                No more worrying about whether you're feeling "good" or just "okay" (whatever that means).
+                We track mood on a simple -5 to 5 scale &mdash; and by tracking whether that's below, at, 
+                or above average, we tune the scale to match you, not the other way around.
+            </p>
+        </div>
+    </div>
+
+    <div class="downloadButtonsContainer download-two text-center">
+        <h2>Ready to get started?</h2>
+        {% include install-buttons.html %}
+    </div>
+</div>
+
+<script>
+    const swiper = new Swiper(".swiper", {
+        loop: true,
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        centeredSlides: true,
+        navigation: {
+            nextEl: "#swiper-next",
+            prevEl: "#swiper-prev",
+        },
+    });
+
+    new Typed("#type-container", {
+        strings: ["start working on your mental health?", "track your mood over time?", "start a new medication?", "build a journaling habit?"],
+        typeSpeed: 50,
+        loop: true,
+        backDelay: 1500,
+    });
+</script>

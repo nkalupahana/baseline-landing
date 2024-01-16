@@ -1,0 +1,260 @@
+.home-top {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-template-areas: "left right";
+    gap: 30px;
+    margin-bottom: 50px;
+
+    @media screen and (max-width: 720px) {
+        grid-template-columns: 1fr !important;
+        grid-template-areas: "right" "left" !important;
+
+        .home-left {
+            margin: 0 auto;
+        }
+
+        .home-right {
+            text-align: center !important;
+        }
+
+        .downloadButtonsContainer {
+            margin-bottom: 0px !important;
+        }
+    }
+
+    .home-left {
+        grid-area: left;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .home-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        grid-area: right;
+    
+        h1 {
+            font-size: 3em;
+            line-height: 120%;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 2px;
+        }
+    }
+
+    .downloadButtonsContainer {
+        display: inline-block;
+        margin-top: 8px;
+        margin-bottom: 64px;
+    
+        p {
+            font-size: 1em;
+        }
+    }
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+$badge-height: 55px;
+
+.appStore {
+    height: $badge-height - 3px;
+    margin-bottom: 4px;
+}
+
+.playStore {
+    height: $badge-height;
+    margin-bottom: 4px;
+}
+
+.phoneScreenshot {
+    max-height: 600px;
+    width: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.features {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    width: 90%;
+    margin: 32px auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .features {
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .features {
+        grid-template-columns: repeat(1, minmax(300px, 1fr));
+    }
+}
+
+.feature {
+    display: flex;
+}
+
+.iconBack {
+	color: #e6e6e6;
+}
+
+.iconTop {
+	color: #1d63ea;
+}
+
+.featureText {
+    margin-left: 8px;
+    h3 {
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: 19px;
+        color: rgb(95, 95, 95);
+    }
+}
+
+.home-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+    .home-container {
+        width: 90%;
+    }
+}
+
+.type-header {
+    margin-bottom: 4px;
+    line-height: 120%;
+}
+
+.home-features {
+    border-radius: 8px;
+    background-color: rgb(246, 247, 248);
+    padding-top: 24px;
+    padding-bottom: 1px;
+}
+
+.testimonials-header {
+    padding: 24px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+$highlight-blue: rgb(190, 223, 225);
+
+.swiper-slide {
+    width: 300px !important;
+    height: max-content !important;
+    background-color: rgb(207, 224, 225);
+    border-radius: 8px;
+    i {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .quote-quote {
+        font-size: 18px;
+        padding: 0 8px;
+    }
+
+    .quote-author {
+        font-size: 13px;
+        color: grey;
+    }
+
+    &.swiper-slide-active {
+        background-color: $highlight-blue;
+    }
+}
+
+.swiper-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+
+.download-two {
+    margin: 50px auto;
+    background-color: $highlight-blue;
+    width: fit-content;
+    padding: 28px;
+    border-radius: 8px;
+}
+
+.large-feature-grid {
+    $mobile-swap: 700px;
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-template-areas: "text phone";
+    gap: 30px;
+    margin-bottom: 32px;
+
+    @media screen and (max-width: $mobile-swap) {
+        grid-template-columns: 1fr !important;
+        grid-template-areas: "phone" "text" !important;
+
+        .phone {
+            margin: 0 auto;
+        }
+
+        .text {
+            text-align: center !important;
+        }
+    }
+
+    &.right-focus {
+        grid-template-columns: 5fr 7fr;
+        grid-template-areas: "phone text";
+
+        .text {
+            text-align: left;
+            margin-left: 0;
+        }
+
+        .phone {
+            justify-self: flex-end;
+        }
+    }
+
+    .phone {
+        grid-area: phone;
+    }
+
+    .text {
+        grid-area: text;
+        text-align: right;
+        max-width: 500px;
+        margin-left: auto;
+
+        @media screen and (min-width: $mobile-swap) {
+            margin-bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
