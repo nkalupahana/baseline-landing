@@ -6,7 +6,7 @@ author:
 - Nelson Mandela Muntz
 description: Isn't this cool?
 toc: true
-image: https://placehold.co/600x400
+image: /assets/placeholder.png
 permalink: /test-blog/
 ---
 

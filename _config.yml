@@ -8,7 +8,7 @@ title: baseline
 #remote_theme: jekyll/minima
 
 ios_app_id: 1621132298
-url: https://getbaseline.app
+url: https://baseline-landing--beta-rvf19wtw.web.app
 tagline: A better journaling and mood tracking app.
 description: A better journaling and mood tracking app. 100% free and private. Non-profit owned and operated.
 twitter:
@@ -64,3 +64,9 @@ features                                  :
 
 include:
   - _pages
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og.png
