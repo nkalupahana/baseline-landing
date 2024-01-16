@@ -162,9 +162,12 @@ $highlight-blue: rgb(190, 223, 225);
 
 .swiper-slide {
     width: 300px !important;
-    height: max-content !important;
+    height: 170px !important;
     background-color: rgb(207, 224, 225);
     border-radius: 8px;
+    display: flex !important;
+    flex-direction: column;
+
     i {
         font-size: 24px;
         margin-top: 10px;
@@ -178,6 +181,7 @@ $highlight-blue: rgb(190, 223, 225);
     .quote-author {
         font-size: 13px;
         color: grey;
+        margin-top: auto;
     }
 
     &.swiper-slide-active {
@@ -257,4 +261,10 @@ $highlight-blue: rgb(190, 223, 225);
             font-size: 18px;
         }
     }
+}
+
+.name-disclaimer {
+    margin-right: auto;
+    align-self: center;
+    font-size: 10px;
 }

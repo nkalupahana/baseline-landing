@@ -1,7 +1,6 @@
 ---
 layout: base
 ---
-
 <div class="home-container">
     <div class="home-top">
         <div class="home-left">
@@ -56,13 +55,13 @@ layout: base
                 <div class="swiper-slide">
                     <i class="fa-solid fa-quote-right"></i>
                     <p class="quote-quote">{{ quote.quote }}</p>
-                    <br />
                     <p class="quote-author">{{ quote.name }}</p>
                 </div>
                 {% endfor %}
             </div>
         </div>
         <div class="swiper-nav">
+            <span class="name-disclaimer">Names changed for privacy.</span>
             <div id="swiper-prev">
                 <span class="fa-stack fa-1x">
                     <i class="iconBack fas fa-circle fa-stack-2x"></i>
@@ -121,22 +120,114 @@ layout: base
     </div>
 </div>
 
+<script src="assets/js/ua-parser.min.js"></script>
+<script src="assets/js/murmurhash3_gc.js"></script>
 <script>
-    const swiper = new Swiper(".swiper", {
-        loop: true,
-        slidesPerView: "auto",
-        spaceBetween: 30,
-        centeredSlides: true,
-        navigation: {
-            nextEl: "#swiper-next",
-            prevEl: "#swiper-prev",
-        },
-    });
+    var utm_source = "web";
+    var utm_campaign = document.referrer || "web";
 
-    new Typed("#type-container", {
-        strings: ["start working on your mental health?", "track your mood over time?", "start a new medication?", "build a journaling habit?"],
-        typeSpeed: 50,
-        loop: true,
-        backDelay: 1500,
-    });
+    function fingerprint() {
+        let fingerprint = "";
+        const ua = new UAParser().getResult();
+        fingerprint += `${ua.os.name}${ua.os.version}${ua.device.vendor}${ua.device.model}${ua.device.type}`;
+        fingerprint += `${navigator.language}${navigator.platform}${navigator.maxTouchPoints}`;
+        fingerprint += `${screen.width}${screen.height}`;
+        fingerprint += `|${new Date().getTimezoneOffset()}`;
+        const hash = murmurhash3_32_gc(fingerprint, 921743158);
+        return hash;
+    }
+
+    function sendInstallRequest() {
+        if (localStorage.getItem("install_started")) {
+            return;
+        }
+
+        localStorage.setItem("install_started", true);
+        fetch("https://api.getbaseline.app/analytics/beacon", {
+            method: "POST",
+            keepalive: true,
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                fingerprint: fingerprint(),
+                state: "install_started",
+                utm_source,
+                utm_campaign
+            })
+        });
+        gtag('event', 'conversion', {'send_to': 'AW-11331344006/9dS_CNGGleAYEIatmpsq'});
+    }
+
+    function ready() {
+        // Set up page elements
+        new Swiper(".swiper", {
+            loop: true,
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            centeredSlides: true,
+            navigation: {
+                nextEl: "#swiper-next",
+                prevEl: "#swiper-prev",
+            },
+        });
+
+        new Typed("#type-container", {
+            strings: ["start working on your mental health?", "track your mood over time?", "start a new medication?", "build a journaling habit?"],
+            typeSpeed: 50,
+            loop: true,
+            backDelay: 1500,
+        });
+
+        // Set up events
+        const params = new URLSearchParams(location.search);
+        if (params.get("utm_source") && params.get("utm_campaign")) {
+            utm_source = params.get("utm_source");
+            utm_campaign = params.get("utm_campaign");
+        }
+
+        for (const el of document.getElementsByClassName("appStoreLink")) {
+            el.onclick = () => {
+                sendInstallRequest();
+                window.open(`https://apps.apple.com/us/app/baseline-mood-journaling/id1621132298`);
+            };
+        }
+
+        for (const el of document.getElementsByClassName("playStoreLink")) {
+            el.onclick = () => {
+                sendInstallRequest();
+                window.open(`https://play.google.com/store/apps/details?id=app.getbaseline.baseline`);
+            };
+        }
+
+        document.getElementById("webLink").onclick = () => {
+            sendInstallRequest();
+            window.open(`https://web.getbaseline.app`);
+        };
+    
+        if (localStorage.getItem("visited")) {
+            return;
+        }
+
+        localStorage.setItem("visited", true);
+        fetch("https://api.getbaseline.app/analytics/beacon", {
+            method: "POST",
+            keepalive: true,
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                fingerprint: fingerprint(),
+                state: "visited",
+                utm_source,
+                utm_campaign
+            })
+        });
+    }
+    
+    if (document.readyState !== 'loading') {
+        ready();
+    } else {
+        document.addEventListener('DOMContentLoaded', ready);
+    }
 </script>

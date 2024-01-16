@@ -1,9 +1,5 @@
 title: baseline
 
-# The `>` after `description:` means to ignore line-breaks until next key.
-# If you want to omit the line-break after the end of text, use `>-` instead.
-description: A better journaling and mood tracking app. 100% free and private. Non-profit owned and operated.
-
 # Build settings
 
 # As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
@@ -11,8 +7,14 @@ description: A better journaling and mood tracking app. 100% free and private. N
 # add a line comment on "theme: minima" above.
 #remote_theme: jekyll/minima
 
+ios_app_id: 1621132298
+url: https://getbaseline.app
+tagline: A better journaling and mood tracking app.
+description: A better journaling and mood tracking app. 100% free and private. Non-profit owned and operated.
+twitter:
+  username: getbaselineapp
+
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-toc
 

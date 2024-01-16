@@ -2,16 +2,28 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if page.url == "/" %}
+  <meta property="twitter:site" content="@getbaselineapp" />
+  <meta property="twitter:app:id:iphone" content="{{ site.ios_app_id }}" />
+  <meta property="twitter:app:id:ipad" content="{{ site.ios_app_id }}" />
+  <meta property="twitter:app:id:googleplay" content="app.getbaseline.baseline" />
+  <meta property="twitter:description" content="{{ site.description }}" />
+  {% endif %}
+
   {%- seo -%}
+  <meta name="og:image" content="https://getbaseline.app/assets/og.png" />
+  <meta property="og:type" content="website" />
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' -%}
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5BVWXFHD');</script>
-  {%- endif -%}
+  <link rel="icon shortcut" href="favicon.ico" />
+
+  <meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}" />
+
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5BVWXFHD');</script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
