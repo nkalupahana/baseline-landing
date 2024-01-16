@@ -10,6 +10,12 @@
     grid-gap: 1rem;
 }
 
+@media screen and (max-width: 320px) {
+    .blog-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
 .post-preview {
     margin-bottom: 16px;
 }
