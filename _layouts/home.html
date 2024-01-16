@@ -7,7 +7,7 @@ layout: base
             <img class="phoneScreenshot" src="/assets/summary-iphone.png" alt="baseline summary screen" />
         </div>
         <div class="home-right">
-            <h1>better mental health, <br />within <i>your</i> reach</h1>
+            <h1>better mental health, <br class="heading-break" />within <i>your</i> reach</h1>
             <p>Start journaling and mood tracking with baseline today.</p>
             <p>100% free and private.</p>
             <div class="downloadButtonsContainer">
@@ -23,7 +23,7 @@ layout: base
 
     <div class="home-features">
         <div class="text-center home-titles">
-            <h1 class="type-header">Want to <span id="type-container"></span></h1>
+            <h1 class="type-header" id="type-header">Want to <span id="type-container"></span></h1>
             <h1><b>baseline can help.</b></h1>
         </div>
 
@@ -114,7 +114,7 @@ layout: base
         </div>
     </div>
 
-    <div class="downloadButtonsContainer download-two text-center">
+    <div class="downloadButtonsContainer download-three text-center">
         <h2>Ready to get started?</h2>
         {% include install-buttons.html %}
     </div>
@@ -185,6 +185,16 @@ layout: base
             loop: true,
             backDelay: 1500,
         });
+
+        const typeHeader = document.getElementById("type-header");
+        let minHeight = 0;
+        setInterval(() => {
+            let height = typeHeader.getBoundingClientRect().height;
+            if (height > minHeight) {
+                minHeight = height;
+                typeHeader.style.minHeight = `${minHeight}px`;
+            }
+        }, 1000);
 
         // Set up events
         const params = new URLSearchParams(location.search);
