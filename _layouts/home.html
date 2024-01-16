@@ -138,25 +138,32 @@ layout: base
     }
 
     function sendInstallRequest() {
-        if (localStorage.getItem("install_started")) {
-            return;
-        }
+        try {
+            if (dataLayer) {
+                dataLayer.push({ "event": "install_started" });
+            }
+            
+            if (localStorage.getItem("install_started")) {
+                return;
+            }
 
-        localStorage.setItem("install_started", true);
-        fetch("https://api.getbaseline.app/analytics/beacon", {
-            method: "POST",
-            keepalive: true,
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                fingerprint: fingerprint(),
-                state: "install_started",
-                utm_source,
-                utm_campaign
-            })
-        });
-        gtag('event', 'conversion', {'send_to': 'AW-11331344006/9dS_CNGGleAYEIatmpsq'});
+            localStorage.setItem("install_started", true);
+            fetch("https://api.getbaseline.app/analytics/beacon", {
+                method: "POST",
+                keepalive: true,
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    fingerprint: fingerprint(),
+                    state: "install_started",
+                    utm_source,
+                    utm_campaign
+                })
+            });
+        } catch (e) {
+            console.error(e);
+        }
     }
 
     function ready() {
