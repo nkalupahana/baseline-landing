@@ -24,10 +24,22 @@ $split-width: 1060px;
     margin: 24px 0;
 }
 
+$callout: rgb(207, 224, 225);
+
 .baseline-callout {
-    background-color: rgb(207, 224, 225);
-    padding: 16px;
+    background-color: $callout;
+    padding: 16px 16px 24px 16px;
     width: calc(100% - 32px);
+}
+
+.cta {
+    background-color: $callout;
+    border-radius: 8px;
+    padding: 18px 24px 24px 24px;
+    
+    h4 {
+        margin-top: 0;
+    }
 }
 
 .post-header-image {
@@ -40,12 +52,6 @@ $split-width: 1060px;
     justify-content: center;
 }
 
-
-li::marker {
-    content: '';
-    color: white;
-}
-
 .text-active-transition {
     transition: color 0.2s ease-in-out;
 }
@@ -56,6 +62,11 @@ li::marker {
     & a {
         color: grey;
     }
+}
+
+.toc-entry::marker {
+    content: '';
+    color: white;
 }
 
 $baseline-blue: #03a9f4;
@@ -78,6 +89,11 @@ $baseline-blue: #03a9f4;
     padding: 10px;
     border-radius: 8px;
     font-size: 14px;
+    font-family: $base-font-family;
+
+    &:visited {
+        color: white;
+    }
 }
 
 .sidebar-image {

@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Journaling for Mental Health"
-description: Meta description
-display_description: Display description
+description: Journaling is a great way to improve your mental health, but it's not the easiest habit to build. We'll show you how to get started.
 toc: true
-image: /assets/placeholder.png
+image: /assets/covers/journaling.jpeg
 permalink: /blog/journaling-for-mental-health
 ---
 
@@ -26,9 +25,9 @@ Finally, journaling gives you a written record of how you were feeling on any gi
 
 Beginning a journaling practice can be as simple or elaborate as you choose. However, it's important to remember: the most important thing is to *start*, and the second most important thing is to *continue*. Because of this, we recommend starting with an approach with some structure. Many people journal with prompts, and I also recommend journaling about what's happening to you in the moment. You're probably already accustomed to talking about your day, and this is just another way to do that.
 
-Additionally, the medium also matters. Especially if you're journaling about your day as it happens, you'll want a journal that you can have with you all the time. For most people, the easiest way to do that is with a journaling app. Journaling apps can also help you stay consistent through notifications, which can help keep you on schedule. I personally use baseline, which I'd recommend for anyone looking to start journaling.
+Additionally, the medium also matters. Especially if you're journaling about your day as it happens, you'll want a journal that you can have with you all the time. For most people, the easiest way to do that is with a journaling app. Journaling apps can also help you stay consistent through notifications, which can help keep you on schedule. I personally use [baseline](https://getbaseline.app), which I'd recommend for anyone looking to start journaling.
 
-{% include install-buttons.html %}
+{% include cta.html %}
 
 ## What to write in a mental health journal
 
