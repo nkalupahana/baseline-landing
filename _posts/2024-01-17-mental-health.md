@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Mental Health 101"
-description: Meta description
-display_description: Display description
+description: Learn the basics of mental health, and what you can do to improve yours.
 toc: true
-image: /assets/placeholder.png
+image: /assets/covers/mentalhealth.jpeg
 permalink: /blog/mental-health-101
 ---
 
@@ -31,7 +30,7 @@ Much like physical health, mental health is something that we can actively work 
 - **Social connection.** Humans are social creatures, and we need social connection to thrive. Make sure you're spending time with people who are close to you, and try to build new relationships as well. If you're struggling to make friends, try joining a club or taking a class. You can also try volunteering -- it's a great way to meet new people and give back to your community. And make sure your social connections aren't just online if you can -- in-person interaction is much more valuable, and social media comes with its own problems, as we'll discuss later.
 - **Mindfulness.** This can take the form of meditation, journaling, and general reflection. Different people respond to different mindfulness tactics differently, so it's important to experiment to find what works for you. I personally don't get anything out of meditation, but I absolutely love journaling, and I've been journaling with [baseline](https://getbaseline.app) for over two years now.
 
-{% include install-buttons.html %}
+{% include cta.html %}
 
 And of course, exercise.
 
