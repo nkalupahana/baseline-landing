@@ -28,7 +28,7 @@ Beginning a journaling practice can be as simple or elaborate as you choose. How
 
 Additionally, the medium also matters. Especially if you're journaling about your day as it happens, you'll want a journal that you can have with you all the time. For most people, the easiest way to do that is with a journaling app. Journaling apps can also help you stay consistent through notifications, which can help keep you on schedule. I personally use baseline, which I'd recommend for anyone looking to start journaling.
 
-{% include install_buttons.html %}
+{% include install-buttons.html %}
 
 ## What to write in a mental health journal
 
