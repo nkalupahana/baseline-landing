@@ -7,15 +7,15 @@ image: /assets/covers/journaling.jpeg
 permalink: /blog/journaling-for-mental-health
 ---
 
-Journaling has been an important part of personal development and mental health care for centuries. This blog post delves into the essence of journaling, its benefits for mental health, practical tips for getting started, and specific prompts to help those dealing with depression and anxiety.
+Journaling has been an important part of personal development and mental health care for centuries. In this blog post, we'll be talking about the essence of journaling, its benefits for mental health, practical tips for getting started, and specific prompts to help those dealing with depression and anxiety.
 
 ## What is journaling?
 
-At its core, journaling is the practice of regularly recording thoughts, feelings, and experiences. It's a personal space for self-reflection, creativity, and expression without the constraints of formality or the pressure of an audience. Journals can take many forms, and isn't even expressly limited to writing -- the style is unique to the individual. All that matters is that you use it to express yourself and what you're feeling, and that you do it regularly.
+At its core, journaling is the practice of regularly recording your thoughts, feelings, and experiences. It's a space for self-reflection, creativity, and expression, but without the pressure of an audience. Journals can take many forms, and aren't even expressly limited to writing -- your journaling style should be unique to you! All that matters is that you use it to express yourself and what you're feeling, and that you do it regularly.
 
 ## Why is journaling good for mental health?
 
-Journaling is proven to improve mental health, and it does so in several ways. Firstly, it's a great emotional outlet. It'll give you a safe space to vent frustrations, celebrate joys, and navigate complex emotions. This act on its own of externalizing thoughts helps in reducing stress and managing anxiety.
+Journaling is proven to improve mental health, and it does so in several ways. Firstly, it's a great emotional outlet. It'll give you a safe space to vent frustrations, celebrate joys, and navigate complex emotions. This alone can help with reducing stress and managing anxiety.
 
 Secondly, journaling fosters self-awareness. By regularly documenting thoughts and feelings, you'll gain insights into your behavioral patterns and emotional triggers, which is crucial for personal growth and mental well-being. This is especially true for written journaling. Many people aren't good at describing their emotions, and often don't even have the *language* to describe what they're feeling. By writing about your feelings more consistently, you'll gain the vocabulary to describe them, thus giving yourself more clarity when dealing with mental health challenges.
 
@@ -43,7 +43,7 @@ There are lots of other ways to journal as well. I sometimes do gratitude journa
 
 ## Types of journaling
 
-We've mostly talked about written journaling here, but there are lots of other ways to journal. Some people prefer to journal with voice memos, or even video. Others prefer to draw or paint. All of these are valid forms of journaling, and you should choose the one that works best for you. However, I'd recommend starting with written journaling, as it's the easiest to do consistently, and it gets you into the habit of really reflecting while journaling. Once you've built that, it's great to branch out.
+We've mostly talked about written journaling here, but there are lots of other ways to journal. Some people prefer to journal with voice memos, or even video. Others prefer to draw or paint. All of these are valid forms of journaling, and you should choose the one that works best for you. However, I'd recommend starting with written journaling, as it's the easiest to do consistently, and it gets you into the habit of really reflecting while journaling. Once you've built that habit, it's great to branch out.
 
 There are also lots of different prompts you can try in addition to the ones we've already shared! We've included a few below, for depression and anxiety specifically.
 

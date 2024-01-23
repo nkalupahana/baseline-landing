@@ -25,18 +25,20 @@ Much like physical health, mental health is something that we can actively work 
 
 ### Habits to improve mental health
 
-- **Get enough sleep.** Sleep is crucial for mental health, and most people don't get enough of it. Try to get at least 7 hours of sleep every night -- but note that that's a very broad recommendation! Many people need more. If you're constantly tired, you probably need more. I personally aim for at least 8.5 hours every night, becuase I've found that it improves my overall resilience to stress.
+- **Get enough sleep.** Sleep is crucial for mental health, and most people don't get enough of it. Try to get at least 7 hours of sleep every night -- but note that that's a very broad recommendation! Many people need more. If you're constantly tired, you probably need more. I personally aim for at least 8.5 hours every night, because I've found that it improves my overall resilience to stress.
 - **Eat healthy.** Eating a balanced diet is important for both physical and mental health. Try to eat a variety of foods, including fruits, vegetables, whole grains, lean proteins, and healthy fats. And *make sure you're eating enough!* Many people don't eat enough calories, which can lead to fatigue and other health problems.
 - **Social connection.** Humans are social creatures, and we need social connection to thrive. Make sure you're spending time with people who are close to you, and try to build new relationships as well. If you're struggling to make friends, try joining a club or taking a class. You can also try volunteering -- it's a great way to meet new people and give back to your community. And make sure your social connections aren't just online if you can -- in-person interaction is much more valuable, and social media comes with its own problems, as we'll discuss later.
 - **Mindfulness.** This can take the form of meditation, journaling, and general reflection. Different people respond to different mindfulness tactics differently, so it's important to experiment to find what works for you. I personally don't get anything out of meditation, but I absolutely love journaling, and I've been journaling with [baseline](https://getbaseline.app) for over two years now.
 
 {% include cta.html %}
 
+<br />
+
 And of course, exercise.
 
 ### How does exercise improve mental health?
 
-[Research shows that people who exercise regularly have better mental health and emotional wellbeing, and lower rates of mental illness.](https://www.betterhealth.vic.gov.au/health/healthyliving/exercise-and-mental-health) It's shown to help prevent mental illness, and as a treatment for anxiety and depression. There's a lot of theories for how this works, including:
+[Research shows that people who exercise regularly have better mental health and emotional wellbeing, and lower rates of mental illness.](https://www.betterhealth.vic.gov.au/health/healthyliving/exercise-and-mental-health) Exercise can help prevent mental illness, and can be a treatment for anxiety and depression. There's a lot of theories for how this works, including:
 
 - Exercise releases chemicals in your brain that make you feel good, like endorphins and serotonin, and it changes the balance of stress chemicals in your brain.
 - It can help you sleep better, which as we talked about before, improves mental health.
@@ -47,11 +49,11 @@ Whatever the case, exercise is a great way to improve your mental health.
 
 ## Social media and mental health
 
-Social media has the potential to be deeply damaging to your mental health. These platforms are designed to be as addicting as possible -- they want you to spend as much time on them as possible, because that's how they make money. Many of them have found that the best way to do this is to show you content that makes you angry, or amplifies your existing negative emotions. And the impacts of this are serious. Studies have shown that social media use is linked to depression, anxiety, and low self-esteem. It's also been linked to sleep problems, eating disorders, and increased suicide risk. 
+Social media has the potential to be deeply damaging to your mental health. Social media platforms are designed to be as addictive as possible -- they want you to spend as much time on them as possible, because that's how they make money. Many of them have found that the best way to do this is to show you content that makes you angry, or amplifies your existing negative emotions. And the impacts of this are serious. Studies have shown that social media use is linked to depression, anxiety, and low self-esteem. It's also been linked to sleep problems, eating disorders, and increased suicide risk. 
 
-If you have mental health issues, there is a good chance that they're being exacerbated by your social media use. These companies spend billions of dollars to know exactly how to exploit your emotions to make you feel worse and keep you addicted to their platform. The only way to fight back is to reduce your screen time. 
+If you have mental health issues, there is a good chance that they're being exacerbated by your social media use. These companies spend billions of dollars to know exactly how to exploit your emotions to make you feel worse and keep you addicted to their platforms. The only way to fight back is to reduce your screen time. 
 
-I personally have uninstalled all social media apps from my phone, and I check the websites about once a week. If you're not ready to take that leap yet (I wasn't ready at the start either), we recommend getting an app like [one sec](https://one-sec.app/), which helps break the dopamine cycle of social media apps.
+I personally have uninstalled all social media apps from my phone, and I only check my accounts about once a week. If you're not ready to take that leap yet (I wasn't ready at the start either), we recommend getting an app like [one sec](https://one-sec.app/), which helps break the dopamine cycle of social media apps.
 
 ## Facts about mental health
 
@@ -75,5 +77,5 @@ Building habits around mental health can be really hard. Mental health apps can 
 Here are some of our favorite free mental health apps in different categories:
 
 - **Journaling: [baseline](https://getbaseline.app).** baseline is a non-profit operated journaling app designed to be an entrypoint for people who want to work on their mental health. If you're looking for a place to start, I highly recommend starting here.
-- **Meditataion: [Headspace](https://www.headspace.com/).** Headspace is a great app for guided meditation. It's a great way to get started with meditation, and it's completely free for students.
-- **Phone Addiction: [one sec](https://one-sec.app/).** one sec is a great app for breaking the dopamine cycle of social media apps. It's a great way to reduce your screen time and improve your mental health.
+- **Meditation: [Headspace](https://www.headspace.com/).** Headspace is a great app for guided meditation. It's a great way to get started with meditation, and it's completely free for students.
+- **Phone Addiction: [one sec](https://one-sec.app/).** one sec is a powerful tool for breaking the dopamine cycle of social media apps. It's a great way to reduce your screen time and improve your mental health.
