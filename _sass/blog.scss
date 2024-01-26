@@ -10,7 +10,7 @@
     grid-gap: 1rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .blog-grid {
         grid-template-columns: 1fr !important;
     }
