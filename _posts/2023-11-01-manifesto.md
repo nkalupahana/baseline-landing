@@ -3,7 +3,7 @@ layout: post
 title: "Why Nonprofit Tech is Vital in the Mental Health Space"
 description: For-profits are fundamentally unaligned with solving the mental health crisis. It's time for non-profits to take on a bigger role.
 toc: true
-image: /assets/covers/journaling.jpeg
+image: /assets/covers/manifesto.png
 permalink: /blog/our-manifesto
 ---
 
