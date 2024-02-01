@@ -138,11 +138,14 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $brand-color;
-  border-left: 4px solid $border-color-01;
+  $bq-color: rgb(111, 111, 111);
+
+  color: $bq-color;
+  border-left: 4px solid $bq-color;
   padding-left: $spacing-unit * .5;
-  @include relative-font-size(1.125);
+  @include relative-font-size(1.25);
   font-style: italic;
+  margin: 30px 0;
 
   > :last-child {
     margin-bottom: 0;
