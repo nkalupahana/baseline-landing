@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Track Your Mood"
+title: "Tracking Your Mood"
 description: Learn why you should track your mood, and how to get started.
 toc: true
 image: /assets/covers/trackmood.jpeg
