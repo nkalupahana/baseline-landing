@@ -5,7 +5,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+    <a class="site-title" id="blog_menu_logo_clicked" rel="author" href="{{ "/" | relative_url }}">
       <img src="/assets/wordmark.webp" alt="{{ site.title | escape }}" style="height: 55px;" />
     </a>
 
@@ -21,8 +21,8 @@
         </label>
 
         <div class="trigger">
-          <a class="page-link" href="/">Home</a>
-          <a class="page-link get-baseline" href="/#top" onclick="document.getElementById('nav-trigger').checked = false;">Try baseline</a>
+          <a id="blog_menu_home_clicked" class="page-link" href="/">Home</a>
+          <a id="blog_menu_trybaseline_clicked" class="page-link get-baseline" href="/#top" onclick="document.getElementById('nav-trigger').checked = false;">Try baseline</a>
         </div>
       </nav>
     {%- endif -%}
