@@ -17,6 +17,7 @@ twitter:
 plugins:
   - jekyll-seo-tag
   - jekyll-toc
+  - jekyll-sitemap
 
 # Theme-specific settings
 
