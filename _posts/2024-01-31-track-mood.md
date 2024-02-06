@@ -13,7 +13,7 @@ If you're trying to improve your mental health, mood tracking is absolutely esse
 
 In order to understand why mood tracking is so important, let's look at how we approach improving our physical health. If we're trying to lose weight, what do we do to see if we're making progress? We weigh ourselves! If we're trying to reduce our cholesterol levels, what do we do to see if they're going down? We take cholesterol tests! The same idea is true for mental health: if you're trying to improve your mental health, you need a way to see whether you're making progress. Mood tracking is what allows you to do that.
 
-Mood tracking is also useful for seeing trends and correlation in your moods. Just like you might keep a food diary to identify food allergies, tracking your mood (especially with a journal) can help you understand what activities and other factors makes you feel better or worse. 
+Mood tracking is also useful for seeing trends and correlations in your moods. Just like you might keep a food diary to identify food allergies, tracking your mood (especially with a journal) can help you understand what activities and other factors makes you feel better or worse. 
 
 ## How to track your mood
 
