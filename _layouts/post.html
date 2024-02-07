@@ -108,4 +108,10 @@ class Scroller {
 document.addEventListener("DOMContentLoaded", function(e) {
   Scroller.init();
 })
+const source = localStorage.getItem("utm_source");
+const campaign = localStorage.getItem("utm_campaign");
+if (!source && !campaign) {
+  localStorage.setItem("utm_source", "blog");
+  localStorage.setItem("utm_campaign", '{{ page.title | downcase | split: " " | join: "_"}}');
+}
 </script>

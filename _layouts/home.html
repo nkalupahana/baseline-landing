@@ -203,6 +203,13 @@ layout: base
             utm_campaign = params.get("utm_campaign");
         }
 
+        const lssource = localStorage.getItem("utm_source");
+        const lscampaign = localStorage.getItem("utm_campaign");
+        if (lssource && lscampaign) {
+            utm_source = lssource;
+            utm_campaign = lscampaign;
+        }
+
         for (const el of document.getElementsByClassName("appStoreLink")) {
             el.onclick = () => {
                 sendInstallRequest();

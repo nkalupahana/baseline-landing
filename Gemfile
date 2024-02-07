@@ -8,3 +8,6 @@ gem "jekyll-seo-tag", "~> 2.1", git: "https://github.com/nkalupahana/jekyll-seo-
 gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
 gem "jekyll-toc"
 gem "jekyll-sitemap"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
