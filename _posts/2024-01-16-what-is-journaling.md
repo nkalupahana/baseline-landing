@@ -7,7 +7,7 @@ image: /assets/covers/journaling.jpeg
 permalink: /blog/journaling-for-mental-health
 ---
 
-Journaling has been an important part of personal development and mental health care for centuries. In this blog post, we'll be talking about the essence of journaling, its benefits for mental health, practical tips for getting started, and specific prompts to help those dealing with depression and anxiety.
+Journaling has been an important part of personal development and mental health care for centuries. In this blog post, we'll be talking about the essence of journaling, its benefits for mental health, and some practical tips for getting started.
 
 ## What is journaling?
 
@@ -62,3 +62,7 @@ There are also lots of different prompts you can try in addition to the ones we'
 - How have I avoided anxiety attacks in the past?
 - When has my anxiety been wrong?
 - Who can I turn to when I'm feeling anxious?
+
+----
+
+I hope this article has given you some inspiration about how to journal for mental health. If you want to learn more about mental health, [check out the rest of our blog!](https://getbaseline.app/blog)
