@@ -7,7 +7,7 @@ image: /assets/covers/mentalhealth.jpeg
 permalink: /blog/mental-health-101
 ---
 
-Unless you've been under a rock for the past decade, you've probably heard the term "mental health" thrown around a lot. But what does it actually mean? And why is it so important?
+You've probably heard the term "mental health" thrown around a lot. But what does it actually mean? And why is it so important?
 
 ## What is mental health?
 
@@ -17,7 +17,9 @@ According to the [World Health Organization](https://www.who.int/news-room/fact-
 
 Mental health is crucial because it can affect every aspect of life. It influences our ability to cope with stress, overcome challenges, build relationships, and recover from life’s setbacks and hardships. Without it, we can't live our best lives.
 
-A person’s mental health affects how they feel, think, behave, and relate to others. Mental health is also key to relationships, personal and emotional well-being, and contributing to community or society. Additionally, it plays a major role in our ability to manage feelings and deal with difficulties. It’s also closely linked to physical health – poor mental health can affect physical wellbeing and vice versa.
+A person’s mental health affects how they feel, think, behave, and relate to others. It's key to our relationships, personal and emotional well-being, and our ability to contribute to our community and society. It plays a major role in our ability to manage feelings and deal with difficulties. *And*, it's closely linked to physical health – poor mental health can affect physical wellbeing and vice versa.
+
+So, there's clearly a lot of reasons to care about mental health. But what can you do to improve yours?
 
 ## How to improve mental health
 
@@ -25,10 +27,21 @@ Much like physical health, mental health is something that we can actively work 
 
 ### Habits to improve mental health
 
-- **Get enough sleep.** Sleep is crucial for mental health, and most people don't get enough of it. Try to get at least 7 hours of sleep every night -- but note that that's a very broad recommendation! Many people need more. (If you're constantly tired, that's probably you.) I personally aim for at least 8.5 hours every night, because I've found that it improves my overall resilience to stress.
-- **Eat healthy.** Eating a balanced diet is important for both physical and mental health. Try to eat a variety of foods, including fruits, vegetables, whole grains, lean proteins, and healthy fats. And *make sure you're eating enough!* Many people don't eat enough calories, which can lead to fatigue and other health problems.
-- **Social connection.** Humans are social creatures, and we need social connection to thrive. Make sure you're spending time with people who are close to you, and try to build new relationships as well. If you're struggling to make friends, try joining a club or taking a class. You can also try volunteering -- it's a great way to meet new people and give back to your community. And make sure your social connections aren't just online if you can -- in-person interaction is much more valuable, and social media comes with its own problems, as we'll discuss later.
-- **Mindfulness.** This can take the form of meditation, journaling, and general reflection. Different people respond to different mindfulness tactics differently, so it's important to experiment to find what works for you. I personally don't get anything out of meditation, but I absolutely love journaling, and I've been journaling with [baseline](https://getbaseline.app) for over two years now.
+#### Get enough sleep
+
+Sleep is crucial for mental health, and most people don't get enough of it. Try to get at least 7 hours of sleep every night -- but note that that's a very broad recommendation! Many people need more. (If you're constantly tired, that's probably you.) I personally aim for at least 8.5 hours every night, because I've found that it improves my overall resilience to stress.
+
+#### Eat healthy
+
+Eating a balanced diet is important for both physical and mental health. Try to eat a variety of foods, including fruits, vegetables, whole grains, lean proteins, and healthy fats. And *make sure you're eating enough!* Many people don't eat enough calories, which can lead to fatigue and other health problems.
+
+#### Social connection
+
+Humans are social creatures, and we need social connection to thrive. Make sure you're spending time with people who are close to you, and try to build new relationships as well. If you're struggling to make friends, try joining a club or taking a class. You can also try volunteering -- it's a great way to meet new people and give back to your community. And make sure your social connections aren't just online if you can -- in-person interaction is much more valuable, and social media comes with its own problems, as we'll discuss later.
+
+#### Mindfulness
+
+This can take the form of meditation, journaling, and general reflection. Different people respond to different mindfulness tactics differently, so it's important to experiment to find what works for you. I personally don't get anything out of meditation, but I absolutely love journaling, and I've been journaling with [baseline](https://getbaseline.app) for over two years now.
 
 {% include cta.html %}
 
