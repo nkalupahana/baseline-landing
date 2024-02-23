@@ -13,9 +13,13 @@ World mental health day is a holiday that prioritizes global mental health educa
 
 The World Mental Health Day movement first started in 1994, with the theme of "Improving the Quality of Mental Health Services throughout the World". Since then, the day has been celebrated with a different theme each year, to highlight some underrepresented aspect of mental health. The last one, in 2023, was "Mental Health is a universal human right". Between then, everything from schizophrenia to youth issues to poverty has been spotlighted.
 
+#### When is world mental health day?
+
+World Mental Health Day is celebrated on October 10th every year. This year, it falls on a Thursday.
+
 ## World Mental Health Day resources
 
-Here are some things you can do to celebrate World Mental Health Day, both now and when the day comes on **October 10th this year:**
+Here are some things you can do to celebrate World Mental Health Day, both now and when the day comes on October 10th this year:
 
 #### Prioritize your own mental health
 
