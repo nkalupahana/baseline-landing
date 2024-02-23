@@ -30,6 +30,8 @@ $callout: rgb(207, 224, 225);
     background-color: $callout;
     padding: 16px 16px 24px 16px;
     width: calc(100% - 32px);
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .cta {
