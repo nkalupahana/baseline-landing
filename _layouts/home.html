@@ -7,7 +7,7 @@ layout: base
             <img class="phoneScreenshot" src="/assets/summary-iphone.webp" alt="baseline summary screen" fetchPriority="high" />
         </div>
         <div class="home-right">
-            <h1>better mental health, <br class="heading-break" />within <i>your</i> reach</h1>
+            <h1 id="landing-title">better mental health, <br class="heading-break" />within <i>your</i> reach</h1>
             <p>Start journaling and mood tracking with baseline today.</p>
             <p>100% free and private.</p>
             <div class="downloadButtonsContainer">
@@ -254,4 +254,10 @@ layout: base
     } else {
         document.addEventListener("DOMContentLoaded", ready);
     }
+
+    posthog.onFeatureFlags(() => {
+        if (posthog.getFeatureFlag('new-landing-title-ab')  === "test") {
+            document.getElementById("landing-title").innerHTML = `take <b><i>control</i></b> of <br class="heading-break" /> your mental health`;
+        }
+    })
 </script>
