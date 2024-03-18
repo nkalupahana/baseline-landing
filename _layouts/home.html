@@ -142,6 +142,10 @@ layout: base
             if (dataLayer) {
                 dataLayer.push({ "event": "install_started" });
             }
+
+            if (posthog) {
+                posthog.capture("Install Started");
+            }
             
             if (localStorage.getItem("install_started")) {
                 return;
