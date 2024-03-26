@@ -65,6 +65,16 @@
         "source": "/ig",
         "destination": "/?utm_source=ig&utm_campaign=ig_profile",
         "type": 302
+      },
+      {
+        "source": "/i1",
+        "destination": "/?utm_source=inf&utm_campaign=i1",
+        "type": 302
+      },
+      {
+        "source": "/i2",
+        "destination": "/?utm_source=inf&utm_campaign=i2",
+        "type": 302
       }
     ]
   }
