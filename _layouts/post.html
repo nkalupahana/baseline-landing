@@ -119,8 +119,6 @@ posthog.onFeatureFlags(() => {
   if (posthog.getFeatureFlag('new-blog-wording') === 'test') {
     document.getElementById("sidebar-heading").innerHTML = "Take charge of your mental health";
     document.getElementById("sidebar-desc").innerHTML = "Take the first step towards a healthier, happier life with baseline, a 100% free and private journaling app.";
-    document.getElementById("cta-title").innerHTML = "<b>Take charge of your mental health with baseline</b>";
-    document.getElementById("cta-desc").innerHTML = "baseline is a 100% free, non-profit operated app that takes a whole new approach to journaling.";
   }
 })
 </script>
