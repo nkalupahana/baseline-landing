@@ -9,7 +9,7 @@ Thanks for using baseline!
 
 baseline is owned and operated by BASELINE HEALTH, incorporated as a Domestic Nonprofit Organization in the State of Oregon, USA. This privacy policy will explain how we use the data we collect from you when you use our website, app, and other services.
 
-baseline collects your email address when you sign in with Apple or Google. If you’d rather we didn’t have your email, you can use a private email address when signing in with Apple. (Google does not have an equivalent feature.) We do not collect any other personally identifiable information. We may use your email address to send you informational emails about baseline (likely asking for feedback or the like).
+baseline collects your email address when you sign in with Apple or Google. If you’d rather we didn’t have your email, you can use a private email address when signing in with Apple. (Google does not have an equivalent feature.) We do not collect any other personally identifiable information. We may use your email address to send you informational emails about baseline (likely asking for feedback, donations, or the like).
 
 The only data we ever get about you is the data you give us when using our services. Even then, though, we can’t see the vast majority of what you submit to our services. Here’s what we can technically see:
 - Given email address (can be obfuscated with Sign In With Apple)
@@ -27,7 +27,7 @@ These tokens are all specific to baseline and cannot be used to track you across
 
 Finally, if you sign up for baseline via a referral link, we can see who the referrer is. For example, if you 
 install baseline via a Twitter ad, we can see the ad campaign you came from. We only store this information to make 
-our advertising more effective. On iOS, this collection is done using third-party processor [Adjust Inc.](https://www.adjust.com/terms/privacy-policy/) using the privacy-preserving [SKAdNetwork framework](https://developer.apple.com/documentation/storekit/skadnetwork/). We make calls to Adjust on the native layer, which isolates it from all journaling-related information.
+our advertising more effective. This collection is done using Google Analytics, which is governed by their Terms of Service and Privacy Policy. However, we make all calls to Google Analytics on the native layer, which isolates it from all journaling-related information.
 
 Other than the use of your email address detailed above, though, our internal data use policies forbid us to view any of this data in any deanonymized fashion without express permission from the user. We have no interest, financial or otherwise, in figuring out who you are and matching any of this data to you or any personal identifiers, and we never will.
 
@@ -88,7 +88,7 @@ All of our cookie and other local storage use is for required website functional
 baseline services contain links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.
 
 ## Changes to our privacy policy
-baseline keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on June 28th, 2023.
+baseline keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on April 5th, 2024.
 
 ## Contact Us 
 
