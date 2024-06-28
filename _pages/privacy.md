@@ -40,9 +40,9 @@ All other data you submit to us is encrypted with keys that are unique to each u
 
 Your data is processed and stored within Google Cloud Platform in the United States. Google does not own any of the information you submit to baseline. You can learn more about Google Cloud Platform’s data processing and privacy agreements [here](https://cloud.google.com/privacy).
 
-Audio journals are transcribed by OpenAI using their Audio Transcriptions API. OpenAI does not own any of the information you submit to baseline, and does not use it to train their models. (Do note, however, that OpenAI may use your audio data to comply with applicable law and enforce OpenAI Policies.) At time of writing, [OpenAI does not retain any data from the audio transcription API that we use](https://platform.openai.com/docs/models/default-usage-policies-by-endpoint), but note that this is out of our control and is subject to change. You can learn more about OpenAI’s data processing and privacy agreements [here](https://openai.com/policies/business-terms/).
+Audio journals are transcribed by OpenAI using their Audio Transcriptions API. OpenAI does not own any of the information you submit to baseline, and does not use it to train their models. (Do note, however, that OpenAI may use your audio data to comply with applicable law and enforce OpenAI policies.) At time of writing, [OpenAI does not retain any data from the audio transcription API that we use](https://platform.openai.com/docs/models/default-usage-policies-by-endpoint), but note that this is out of our control and is subject to change. You can learn more about OpenAI’s data processing and privacy agreements [here](https://openai.com/policies/business-terms/).
 
-We will never sell or otherwise provide any of your information to any third party. Ever. Since most of the information anyone would ever want from baseline is encrypted with keys we don’t possess, we don’t really have much to give away anyways. User keys are also further encrypted by baseline. We will fight as hard as we need to to protect our internal keys to keep user data safe from people and organizations that wish to access it (including but not limited to state-level actors).
+Outside of what is explicitly listed in this policy, we will never sell or otherwise provide any of your information to any third party. Since most of the information anyone would ever want from baseline is encrypted with keys we don’t possess, we don’t really have much to give away anyways. (These keys are also further encrypted by baseline.) We will fight as hard as we need to to protect our internal keys to keep user data safe from people and organizations that wish to access it (including but not limited to state-level actors).
 
 baseline has no interest in selling you anything. You won’t be receiving marketing emails from us.
 
@@ -52,7 +52,7 @@ baseline has no interest in selling you anything. You won’t be receiving marke
 
 baseline is a free and completely open-source piece of software, developed and maintained by us because we believe everyone deserves quality, free mental health care, no matter who they are or what their situation is. We believe it is unethical and irresponsible to put this type of support behind a subscription.
 
-baseline is funded through donations, and by income sharing commitments made by our creator. If you’d like to donate to support us, check us out on [PayPal](https://paypal.me/getbaseline) or [Venmo](https://account.venmo.com/u/getbaseline), or shoot us an email! Everything helps, and every dollar goes directly to baseline.
+baseline is funded through donations, and by income sharing commitments made by our creator. If you’d like to donate to support us, check us out on [Donorbox](https://donorbox.org/baseline), or shoot us an email! Everything helps, and every dollar goes directly to baseline.
 
 ---
 
