@@ -14,7 +14,7 @@ This Agreement is effective August 10th 2022, and will be governed in accordance
 Please only use baseline for its intended purpose. You may not use the Service to do or share anything that breaches this Agreement, that is unlawful, or infringes or breaches someone else’s rights.
 
 Here are some additional restrictions:
-- Using baseline to host data (including but not limited to text, images, or images) for a service not related to the direct betterment of user mental health, or **any** paid service or service with a paid/premium tier, is prohibited.
+- Using baseline to host data (including but not limited to text, images, or audio) for a service not related to the direct betterment of user mental health, or **any** paid service or service with a paid/premium tier, is prohibited.
 - Using baseline's API to transcribe/convert audio, convert images, or search Spotify's catalog in a service not related to the direct betterment of user mental health, or any paid service or service with a paid/premium tier, is prohibited.
 - You may not upload viruses or malicious code, or do anything that could disable, overburden or impair the proper working of the Service.
 - You may not attempt to access data that you do not have permission to access.
