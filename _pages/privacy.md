@@ -27,7 +27,7 @@ These tokens are all specific to baseline and cannot be used to track you across
 
 Finally, if you sign up for baseline via a referral link, we can see who the referrer is. For example, if you 
 install baseline via a Twitter ad, we can see the ad campaign you came from. We only store this information to make 
-our advertising more effective. This collection is done using Google Analytics, which is governed by their Terms of Service and Privacy Policy. However, we make all calls to Google Analytics on the native layer, which isolates it from all journaling-related information.
+our advertising more effective. This collection is done using Google Analytics, which is governed by their Terms of Service and Privacy Policy. However, we make all calls to Google Analytics on a separate layer from our core app, which isolates it from all journaling-related information.
 
 Other than the use of your email address detailed above, though, our internal data use policies forbid us to view any of this data in any deanonymized fashion without express permission from the user. We have no interest, financial or otherwise, in figuring out who you are and matching any of this data to you or any personal identifiers, and we never will.
 
@@ -35,20 +35,24 @@ All other data you submit to us is encrypted with keys that are unique to each u
 - Contents of mood logs (written portion, average, mood score, image storage location, etc.)
 - Scores/Results on surveys
 - Image data
+- Audio data from audio journal entries
+- Song search history or selections
 
 Your data is processed and stored within Google Cloud Platform in the United States. Google does not own any of the information you submit to baseline. You can learn more about Google Cloud Platform’s data processing and privacy agreements [here](https://cloud.google.com/privacy).
 
-We will never sell or otherwise provide any of your information to any third party. Ever. Since most of the information anyone would ever want from baseline is encrypted with keys we don’t possess, we don’t really have much to give away anyways. User keys are also further encrypted by baseline. We will fight as hard as we need to to protect our internal keys to keep user data safe from people and organizations that wish to access it (including but not limited to state-level actors).
+Audio journals are transcribed by OpenAI using their Audio Transcriptions API. OpenAI does not own any of the information you submit to baseline, and does not use it to train their models. (Do note, however, that OpenAI may use your audio data to comply with applicable law and enforce OpenAI policies.) At time of writing, [OpenAI does not retain any data from the audio transcription API that we use](https://platform.openai.com/docs/models/default-usage-policies-by-endpoint), but note that this is out of our control and is subject to change. You can learn more about OpenAI’s data processing and privacy agreements [here](https://openai.com/policies/business-terms/).
+
+Outside of what is explicitly listed in this policy, we will never sell or otherwise provide any of your information to any third party. Since most of the information anyone would ever want from baseline is encrypted with keys we don’t possess, we don’t really have much to give away anyways. (These keys are also further encrypted by baseline.) We will fight as hard as we need to to protect our internal keys to keep user data safe from people and organizations that wish to access it (including but not limited to state-level actors).
 
 baseline has no interest in selling you anything. You won’t be receiving marketing emails from us.
 
 ---
 
-### So, how does baseline make money, then?
+### How does baseline make money, then?
 
 baseline is a free and completely open-source piece of software, developed and maintained by us because we believe everyone deserves quality, free mental health care, no matter who they are or what their situation is. We believe it is unethical and irresponsible to put this type of support behind a subscription.
 
-baseline is funded through donations, and by income sharing commitments made by our creator. If you’d like to donate to support us, check us out on [PayPal](https://paypal.me/getbaseline) or [Venmo](https://account.venmo.com/u/getbaseline), or shoot us an email! Everything helps, and every dollar goes directly to baseline.
+baseline is funded through donations, and by income sharing commitments made by our founder. If you’d like to donate to support us, check us out on [Donorbox](https://donorbox.org/baseline), or shoot us an email! Everything helps, and every dollar goes directly to baseline.
 
 ---
 
@@ -88,7 +92,7 @@ All of our cookie and other local storage use is for required website functional
 baseline services contain links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.
 
 ## Changes to our privacy policy
-baseline keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on April 5th, 2024.
+baseline keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on June 28th, 2024.
 
 ## Contact Us 
 
